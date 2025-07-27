@@ -23,6 +23,12 @@ export class MaquinasService {
     return await this.maquinaRepository.find();
   }
 
+  async getMaquina(id: number) {
+    return await this.maquinaRepository.find({
+      where: { id }
+    })
+  }
+
   async createMaquina(createMaquinaDto: CreateMaquinaDto) {
     const maquina = await this.maquinaRepository.create(createMaquinaDto);
     return await this.maquinaRepository.save(maquina);

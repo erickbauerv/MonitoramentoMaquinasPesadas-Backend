@@ -14,6 +14,11 @@ export class MaquinasController {
         return this.maquinasService.getMaquinas(status);
     }
 
+    @Get()
+    getMaquina(@Query('id') id: number) {
+        return this.maquinasService.getMaquina(id);
+    }
+
     @Post()
     createMaquina(@Body() createMaquinaDto: CreateMaquinaDto) {
         return this.maquinasService.createMaquina(createMaquinaDto);
