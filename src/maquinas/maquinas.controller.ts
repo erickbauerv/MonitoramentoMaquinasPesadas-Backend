@@ -14,8 +14,8 @@ export class MaquinasController {
         return this.maquinasService.getMaquinas(status);
     }
 
-    @Get()
-    getMaquina(@Query('id') id: number) {
+    @Get(':id')
+    getMaquina(@Param('id')  id: number) {
         return this.maquinasService.getMaquina(id);
     }
 
@@ -25,7 +25,7 @@ export class MaquinasController {
     }
 
     @Put(':id')
-    updateMaquina(@Param('id') id: string, @Body() updateMaquinaDto: UpdateMaquinaDto) {
+    updateMaquina(@Param('id') id: number, @Body() updateMaquinaDto: UpdateMaquinaDto) {
         return this.maquinasService.updateMaquina(+id, updateMaquinaDto);
     }
 }

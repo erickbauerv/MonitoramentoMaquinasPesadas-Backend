@@ -24,7 +24,7 @@ export class MaquinasService {
   }
 
   async getMaquina(id: number) {
-    return await this.maquinaRepository.find({
+    return await this.maquinaRepository.findOne({
       where: { id }
     })
   }
