@@ -1,9 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Maquina } from './models/maquina.model';
-import { CreateMaquinaDto } from './dtos/create-maquina.dto';
-import { UpdateMaquinaDto } from './dtos/update-maquina.dto';
+import { Maquina } from '../models/maquina.model';
+import { CreateMaquinaDto } from '../dtos/create-maquina.dto';
+import { UpdateMaquinaDto } from '../dtos/update-maquina.dto';
 
 @Injectable()
 export class MaquinasService {

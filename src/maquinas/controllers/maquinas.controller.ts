@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Param, Post, Put, Query } from '@nestjs/common';
-import { MaquinasService } from './maquinas.service';
-import { CreateMaquinaDto } from './dtos/create-maquina.dto';
-import { UpdateMaquinaDto } from './dtos/update-maquina.dto';
+import { MaquinasService } from '../services/maquinas.service';
+import { CreateMaquinaDto } from '../dtos/create-maquina.dto';
+import { UpdateMaquinaDto } from '../dtos/update-maquina.dto';
 
 @Controller('maquinas')
 export class MaquinasController {
