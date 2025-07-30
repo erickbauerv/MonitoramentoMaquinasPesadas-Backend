@@ -1,4 +1,4 @@
-# Monitoramento de Máquinas Pesadas - Backend
+# Monitoramento de Máquinas Pesadas - Back-End
 
 ## Sobre o projeto
 
