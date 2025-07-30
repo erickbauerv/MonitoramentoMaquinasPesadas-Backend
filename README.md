@@ -103,10 +103,12 @@ Resposta:
 
 ## Instalação do projeto
 
-1 - Clonar o repositório com `git clone https://github.com/erickbauerv/MonitoramentoMaquinasPesadas-Backend.git`
+1 - Pré-requisitos: Node: https://nodejs.org/en/download , git: https://git-scm.com/downloads
 
-2 - Na pasta do projeto rodar o comando `npm install` para instalar as dependências do projeto
+2 - Clonar o repositório com `git clone https://github.com/erickbauerv/MonitoramentoMaquinasPesadas-Backend.git`
 
-3 - Para rodar a aplicação utilizar o comando `npm run start` ou `npm run start:dev`
+3 - Na pasta do projeto rodar o comando `npm install` para instalar as dependências do projeto
 
-4 - A aplicação estará disponível em  [http://localhost:3000](http://localhost:4200/)
+4 - Para rodar a aplicação utilizar o comando `npm run start` ou `npm run start:dev`
+
+5 - A aplicação estará disponível em  [http://localhost:3000](http://localhost:4200/)
