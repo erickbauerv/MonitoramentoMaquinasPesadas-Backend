@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { MaquinasModule } from './maquinas/maquinas.module';
+import { MaquinasModule } from './maquinas/modules/maquinas.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Maquina } from './maquinas/models/maquina.model';
 
